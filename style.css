@@ -6,28 +6,43 @@
   body{
     font-family: Arial, Helvetica, sans-serif;
     background-image: url(./images/cloudy.jpg);
-    background-position: center;
+    background-position:center;
+    background-size:cover;
+    background-attachment: fixed;
   }
   
   img{
     width: 100%;
+    display: block;
   }
   h1{
     color: rgb(195, 129, 81) ;
+    font-size: 60px;
   }
   
   
   .main-container{
     position: relative;
     margin-top: 5%;
-    left: 15%;
-    width: 70%;
+    left: 29%;
+    width: 40%;
     text-align: center;
   }
   .image-container{
-    border: 2px solid darkseagreen;
-    padding-top: 2%;
+    border: 2px solid rgb(40, 39, 40);
+    padding-top: 4%;
     background-color: rgb(245, 199, 167);
     color: rgb(115, 176, 230);
     overflow-wrap: break-word;
+    border-radius: 6px;
+    margin-top: 6px;
   }
+
+   button{
+    width: 30%;
+   }
+
+   input{
+    height: 30px;
+    text-align: center;
+   }
