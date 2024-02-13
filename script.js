@@ -22,7 +22,7 @@ document.getElementById('refreshbtn').addEventListener('click', function () {
 })
 
 // eslint-disable-next-line eqeqeq
-if ( ${imageParagraph.value} === 'Sunny'), {
+if (imageParagraph.value == 'Sunny') {
   imageCon.body.style.backgroundImage = "url('./images/sunny.jpg')"
 }
 
