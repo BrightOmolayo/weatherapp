@@ -46,3 +46,46 @@
     height: 30px;
     text-align: center;
    }
+
+   @media screen  and (max-width: 480px){
+
+   
+  h1{
+    color: rgb(195, 129, 81) ;
+    font-size: 10px;
+    display: none;
+  }
+  h2{
+    font-size: small;
+  }
+  
+  
+  .main-container{
+    position: relative;
+    margin-top: 5%;
+    left: 19%;
+    width: 60%;
+    text-align: center;
+  }
+  .image-container{
+    border: 2px solid rgb(40, 39, 40);
+    padding-top: 4%;
+    background-color: rgb(245, 199, 167);
+    color: rgb(115, 176, 230);
+    overflow-wrap: break-word;
+    border-radius: 6px;
+    margin-top: 16px;
+  }
+
+   button{
+    width: 50%;
+   }
+
+   input{
+    height: 30px;
+    text-align: center;
+    margin-top: 50px;
+    width: 90%;
+   }
+    
+   }
