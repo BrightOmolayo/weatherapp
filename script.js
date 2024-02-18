@@ -6,15 +6,19 @@ console.log(imageCon)
 
 const icon = {
   'sunny ': 'images/sunny.jpg',
-  'clody ': 'images/cloudy.jpg',
+  'cloudy ': 'images/cloudy.jpg',
   'foggy ': 'images/foggy.jpg',
   'rainfall ': 'images/rain-fall.jpg',
   'sleet ': 'images/sleet.jpg',
   'snowy ': 'images/snowy.jpg',
   'thunder ': 'images/thunder.jpg',
-  'windy ': ' images/Windy.jpg',
+  'windy ': 'images/Windy.jpg',
   'clear ': 'images/cleary-weather.jpg',
-  'partly   cloudy ': 'images/partly-cloudy.jpg'
+  clear: 'images/cleary-weather.jpg',
+  'partly   cloudy ': 'images/partly-cloudy.jpg',
+  'thundery outbreaks in nearby': 'images/thunder.jpg',
+  mist: 'images/mist.jpg',
+  'patchy rain nearby': 'images/p-rain.jpg'
 }
 
 btn.addEventListener('click', () => {
