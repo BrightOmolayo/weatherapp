@@ -92,6 +92,14 @@
 
    .image{
     width: 100%;
-    
 
+   }
+
+   #searchButton{
+    height: 40px;
+    margin: 3px;
+    border-radius: 19px;
+    border: transparent;
+    box-shadow: 2px 2px 2px 1px rgb(89, 79, 79);
+    padding: 2px;
    }
