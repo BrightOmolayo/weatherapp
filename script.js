@@ -22,7 +22,7 @@ const icon = {
   mist: 'images/mist.jpg',
   'patchy rain nearby': 'images/p-rain.jpg',
   overcast: 'images/overcast.jpg',
-  'Patchy light rain in area with thunder': ' images/patchy rain with thunder'
+  'patchy light rain in area with thunder': ' images/patchy.jpg'
 }
 
 btn.addEventListener('click', () => {
