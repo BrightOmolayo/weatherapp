@@ -21,7 +21,8 @@ const icon = {
   'thundery outbreaks in nearby': 'images/thunder.jpg',
   mist: 'images/mist.jpg',
   'patchy rain nearby': 'images/p-rain.jpg',
-  overcast: 'images/overcast.jpg'
+  overcast: 'images/overcast.jpg',
+  'Patchy light rain in area with thunder': ' images/patchy rain with thunder'
 }
 
 btn.addEventListener('click', () => {
